@@ -99,7 +99,7 @@ and the rules allow every track a project fits.
 | `size` | `1` | Ready |
 | `tracks` | `["agents", "business"]` | Ready |
 | `nearAddress` | **MISSING** | **Hard blocker — human must provide a mainnet NEAR account they control** |
-| `projectUrl` | `https://github.com/matrixneoaiagent/near-agent-fleet` | Pending public repo creation |
+| `projectUrl` | `https://github.com/matrixneoaiagent/near-agent-fleet` | Public repo created and pushed |
 | `demoUrl` | **MISSING** | **Blocker — parent posts the X demo, then supplies the URL** |
 | `idea` | see below | Ready |
 | `consent` | `true` | Only after the human reads the contact notice verbatim |
@@ -153,8 +153,8 @@ repo; the post itself should not imply otherwise.
    intended identity.
 2. Human: provide a mainnet NEAR account for the prize (`team.near` or a
    64-character implicit account) that they control. Do not create or invent one.
-3. Create the public repo and push the prepared tree (done separately by the
-   agent; verify `git status` and that no `secrets.json` is tracked).
+3. Public repo: <https://github.com/matrixneoaiagent/near-agent-fleet>. Verify
+   `git status` and that no `secrets.json` is tracked before submitting.
 4. Human: publish the X post with the video attached; copy the status URL.
 5. Generate `requestId` once: `uuidgen | tr 'A-Z' 'a-z'` (reuse on retries).
 6. Print the full JSON payload (below) and have the human read it.
@@ -198,8 +198,8 @@ curl -sS -X POST https://nearhackathon.com/api/applications \
 2. **Demo post is not published.** The parent session posts it; the URL is
    required by the form.
 3. **Human confirmation** of the lead name, email and consent notice.
-4. **Public repo** must exist before the payload is sent. Creating it is
-   allowed; the agent will do it and verify no secrets are tracked.
+4. **Public repo** is created and public. Confirm the commit you want judged
+   and that no `secrets.json` is tracked.
 
 No wallet signature or login is required by the form itself. The submission
 API is unauthenticated; the blockers are missing human inputs, not a technical

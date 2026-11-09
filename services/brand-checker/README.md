@@ -77,8 +77,8 @@ fallback when a webhook is lost.
 
 - Stable public report: <https://x0.at/nmZT.md>
 - JSON result: <https://x0.at/XLIs.json>
-- Live demo check (`.studio`, `.dev`, X): real public job, 2026-11-09, linked
-  from the fleet demo video.
+- Live demo check (`.studio`, `.dev`, X): real public job, 2026-11-09, shown in
+  the fleet demo video.
 
 ## Honest limitations
 

@@ -148,7 +148,11 @@ handling.
 
 Requirements: Python 3.11+ (standard library only), `git`. The individual
 services need their own runtimes (ffmpeg, Whisper, `yt-dlp`, `edge-tts`); see
-each service README.
+each service README. `start.sh` uses `cloudflared` from `PATH`, `CLOUDFLARED_BIN`,
+or `services/*/bin/cloudflared`; the binary is not committed. Live agent
+credentials are provisioned with each service's `provision.py` and stored in a
+local `secrets.json` (mode 600), never in this repository. The fleet verifier
+and demo do not need those credentials: they use only public endpoints.
 
 ```bash
 # 1. Fleet control plane (no dependencies)

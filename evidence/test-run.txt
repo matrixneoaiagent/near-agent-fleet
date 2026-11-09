@@ -17,6 +17,6 @@ test_gitignore_blocks_runtime_state (test_fleet.SecretHygieneTests.test_gitignor
 test_no_credential_shapes_in_repository (test_fleet.SecretHygieneTests.test_no_credential_shapes_in_repository) ... ok
 
 ----------------------------------------------------------------------
-Ran 17 tests in 0.014s
+Ran 17 tests in 0.018s
 
 OK

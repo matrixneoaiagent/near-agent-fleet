@@ -1,8 +1,8 @@
 {
   "fleet": "NEAR Agent Fleet",
   "market": "https://market.near.ai",
-  "generated_at": "2026-11-09T13:37:16Z",
-  "duration_ms": 1477,
+  "generated_at": "2026-11-09T13:40:52Z",
+  "duration_ms": 1485,
   "summary": {
     "agents": 3,
     "live": 3,
@@ -22,6 +22,13 @@
       "price_usd": "5.00",
       "price_unit": "per brand check (1-5 names)",
       "sla": "1 hour",
+      "skills": [
+        "Domains via registry RDAP/WHOIS",
+        "X, GitHub, YouTube, TikTok, Instagram handles",
+        "Apple App Store and Google Play exact-name apps",
+        "USPTO and TMview trademark conflicts",
+        "Timestamp and evidence URL on every row"
+      ],
       "status": "live",
       "delivered_jobs": "0",
       "checks_passed": 4,
@@ -33,16 +40,16 @@
           "ok": true,
           "detail": "Brand Name Availability Checker / Research / $5.00 USD",
           "http_status": 200,
-          "latency_ms": 624,
+          "latency_ms": 602,
           "url": "https://market.near.ai/a/brandnamechecker"
         },
         {
           "id": "health",
           "label": "Health endpoint",
           "ok": true,
-          "detail": "ok / brand-name-checker / up 61872s",
+          "detail": "ok / brand-name-checker / up 62088s",
           "http_status": 200,
-          "latency_ms": 383,
+          "latency_ms": 215,
           "url": "https://generator-fell-demonstration-successful.trycloudflare.com/healthz"
         },
         {
@@ -51,7 +58,7 @@
           "ok": true,
           "detail": "Brand Name Availability Checker / 1 skill(s) / A2A 0.3.0",
           "http_status": 200,
-          "latency_ms": 228,
+          "latency_ms": 238,
           "url": "https://generator-fell-demonstration-successful.trycloudflare.com/.well-known/agent-card.json"
         },
         {
@@ -60,7 +67,7 @@
           "ok": true,
           "detail": "200 / text/html / 6657 bytes",
           "http_status": 200,
-          "latency_ms": 191,
+          "latency_ms": 123,
           "url": "https://generator-fell-demonstration-successful.trycloudflare.com/r/3e691552-dc1f-4274-983c-23746224f5b2"
         }
       ]
@@ -75,6 +82,13 @@
       "price_usd": "25.00",
       "price_unit": "per media job",
       "sla": "6 hours",
+      "skills": [
+        "1-6 images at exact 1:1, 9:16 or 16:9",
+        "One short video up to 8.5 seconds",
+        "Voiceover from an exact script, +/-1 second",
+        "Provider and model named in every report",
+        "Content-rule declines instead of unsafe output"
+      ],
       "status": "live",
       "delivered_jobs": "0",
       "checks_passed": 4,
@@ -86,7 +100,7 @@
           "ok": true,
           "detail": "AI Image, Video & Voiceover Generator / Creative / $25.00 USD",
           "http_status": 200,
-          "latency_ms": 604,
+          "latency_ms": 675,
           "url": "https://market.near.ai/a/media-studio-agent"
         },
         {
@@ -95,7 +109,7 @@
           "ok": true,
           "detail": "ok / near-media-generator / up ?s",
           "http_status": 200,
-          "latency_ms": 474,
+          "latency_ms": 365,
           "url": "https://million-tim-involvement-calvin.trycloudflare.com/healthz"
         },
         {
@@ -104,7 +118,7 @@
           "ok": true,
           "detail": "AI Image, Video & Voiceover Generator / 3 skill(s) / A2A 0.3.0",
           "http_status": 200,
-          "latency_ms": 188,
+          "latency_ms": 202,
           "url": "https://million-tim-involvement-calvin.trycloudflare.com/.well-known/agent-card.json"
         },
         {
@@ -113,7 +127,7 @@
           "ok": true,
           "detail": "200 / text/markdown / 5309 bytes",
           "http_status": 200,
-          "latency_ms": 205,
+          "latency_ms": 238,
           "url": "https://million-tim-involvement-calvin.trycloudflare.com/v1/jobs/4183066f-9c42-445f-84c3-b7e39c8dc4fd/report"
         }
       ]
@@ -128,6 +142,13 @@
       "price_usd": "25.00",
       "price_unit": "per clipping job",
       "sla": "6 hours",
+      "skills": [
+        "1-10 clips from one long video",
+        "9:16, 1:1 and 16:9 output",
+        "Complete-sentence cut boundaries",
+        "Optional burned-in captions from local Whisper",
+        "Reason, timecodes and limitations in a report"
+      ],
       "status": "live",
       "delivered_jobs": "0",
       "checks_passed": 4,
@@ -139,16 +160,16 @@
           "ok": true,
           "detail": "Video Clipping Agent / Creative / $25.00 USD",
           "http_status": 200,
-          "latency_ms": 615,
+          "latency_ms": 618,
           "url": "https://market.near.ai/a/clipper-agent"
         },
         {
           "id": "health",
           "label": "Health endpoint",
           "ok": true,
-          "detail": "ok / video-clipping-agent / up 64048s",
+          "detail": "ok / video-clipping-agent / up 64264s",
           "http_status": 200,
-          "latency_ms": 395,
+          "latency_ms": 225,
           "url": "https://defines-anthony-ensures-lounge.trycloudflare.com/healthz"
         },
         {
@@ -157,7 +178,7 @@
           "ok": true,
           "detail": "Video Clipping Agent / 1 skill(s) / A2A 0.3.0",
           "http_status": 200,
-          "latency_ms": 210,
+          "latency_ms": 216,
           "url": "https://defines-anthony-ensures-lounge.trycloudflare.com/.well-known/agent-card.json"
         },
         {
@@ -166,7 +187,7 @@
           "ok": true,
           "detail": "200 / text/markdown / 3911 bytes",
           "http_status": 200,
-          "latency_ms": 200,
+          "latency_ms": 134,
           "url": "https://defines-anthony-ensures-lounge.trycloudflare.com/v1/jobs/e720fdfa-c584-4929-87a1-f624ce97a0e7/report"
         }
       ]

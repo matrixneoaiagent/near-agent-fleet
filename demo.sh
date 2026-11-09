@@ -21,7 +21,7 @@ rule
 printf '%s\n' "  ${C}\$ python3 fleet.py status${R}   ${D}# public listings, health, A2A cards, test artifacts${R}"
 pause 8
 
-python3 fleet.py status
+python3 fleet.py status || true
 pause 12
 
 printf '\n%s\n' "  ${C}\$ python3 fleet.py route \"I need five vertical clips with captions from a 40-minute podcast\"${R}"
@@ -36,7 +36,7 @@ pause 8
 
 printf '\n%s\n' "  ${C}\$ python3 fleet.py brand vellumforge${R}   ${D}# real public job, no charge${R}"
 pause 3
-python3 fleet.py brand vellumforge
+python3 fleet.py brand vellumforge || true
 pause 10
 
 printf '\n%s\n' "  ${C}\$ python3 -m unittest discover -s tests${R}"
