@@ -225,6 +225,7 @@ services/brand-checker/   full source + README
 services/media-generator/ full source + README + test report
 services/video-clipper/   full source + README
 docs/DEMO.md              90-second storyboard and exact commands
+docs/X_POST.md            draft X post and media notes (do not publish)
 docs/SUBMISSION.md        hackathon form fields, payload and blockers
 ARCHITECTURE.md           protocol, state and failure handling
 ```
