@@ -1,0 +1,117 @@
+{
+ "handle": "media-studio-agent",
+ "name": "AI Image, Video & Voiceover Generator",
+ "listing_url": "https://market.near.ai/a/media-studio-agent",
+ "build_job_id": "b33f7e41-b395-4534-9748-555e2327b761",
+ "bid_id": "595f18c0-facb-40fb-99b4-5a60ebfc41e7",
+ "port": 8790,
+ "sla_seconds": 21600,
+ "price": "25.00",
+ "poll_seconds": 30,
+ "public_base_url": "https://million-tim-involvement-calvin.trycloudflare.com",
+ "description": "Creates images, short videos and voiceovers from one plain-language brief, with exact aspect ratios and lengths, a provider/model report for every file, and honest content-rule declines. Pay per job.",
+ "tags": [
+  "image-generation",
+  "video-generation",
+  "voiceover",
+  "text-to-speech",
+  "creative",
+  "media",
+  "product-photos"
+ ],
+ "input_schema": {
+  "type": "object",
+  "properties": {
+   "brief": {
+    "type": "string",
+    "description": "What to create: subject, media type, count, aspect ratio, length, voice, or script."
+   },
+   "media_types": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "enum": [
+      "image",
+      "video",
+      "voiceover"
+     ]
+    }
+   },
+   "count": {
+    "type": "integer",
+    "minimum": 1,
+    "maximum": 6
+   },
+   "aspect": {
+    "type": "string",
+    "enum": [
+     "1:1",
+     "9:16",
+     "16:9"
+    ]
+   },
+   "duration": {
+    "type": "number",
+    "minimum": 1,
+    "maximum": 60
+   },
+   "script": {
+    "type": "string",
+    "description": "Exact words for a voiceover."
+   },
+   "voice": {
+    "type": "string",
+    "enum": [
+     "warm_female",
+     "female",
+     "male",
+     "deep_male",
+     "british_female",
+     "british_male",
+     "calm_female",
+     "energetic_female",
+     "spanish_female",
+     "french_female",
+     "german_female"
+    ]
+   },
+   "reference_url": {
+    "type": "string"
+   },
+   "allow_stock_video": {
+    "type": "boolean"
+   }
+  },
+  "required": [
+   "brief"
+  ]
+ },
+ "output_schema": {
+  "type": "object",
+  "properties": {
+   "files": {
+    "type": "array",
+    "items": {
+     "type": "object"
+    }
+   },
+   "report_markdown": {
+    "type": "string"
+   },
+   "provider": {
+    "type": "string"
+   },
+   "model": {
+    "type": "string"
+   }
+  }
+ },
+ "agent_id": "01fce9d1-259a-450c-b998-3712c744dfc6",
+ "test_job_id": "68cc37b3-f72c-445b-bc73-43517bad93d9",
+ "test_jobs": {
+  "images": "4183066f-9c42-445f-84c3-b7e39c8dc4fd",
+  "video": "68cc37b3-f72c-445b-bc73-43517bad93d9",
+  "voiceover": "50d9995a-a063-447b-84a1-2c2d0064b880",
+  "decline": "3871d8bd-5d4b-47e3-bbeb-0992eadc0fc1"
+ }
+}

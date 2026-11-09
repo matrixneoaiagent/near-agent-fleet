@@ -1,0 +1,1 @@
+One command verifies every listing, health endpoint, card and test artifact.

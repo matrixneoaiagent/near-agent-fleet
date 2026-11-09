@@ -1,0 +1,20 @@
+# Runtime and secrets
+secrets.json
+*.pem
+*.key
+.env
+state/
+logs/
+work/
+models/
+test-output/
+.venv/
+__pycache__/
+*.pyc
+
+# Local demo output
+demo/*.mp4
+demo/*.log
+
+# OS
+.DS_Store

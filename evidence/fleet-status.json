@@ -1,0 +1,175 @@
+{
+  "fleet": "NEAR Agent Fleet",
+  "market": "https://market.near.ai",
+  "generated_at": "2026-11-09T13:37:16Z",
+  "duration_ms": 1477,
+  "summary": {
+    "agents": 3,
+    "live": 3,
+    "degraded": 0,
+    "down": 0,
+    "checks_passed": 12,
+    "checks_total": 12
+  },
+  "agents": [
+    {
+      "id": "brand-checker",
+      "name": "Brand Name Availability Checker",
+      "handle": "brandnamechecker",
+      "market_agent_id": "dcc82913-07ad-4774-8c97-c78a2a2edd42",
+      "category": "research",
+      "listing": "https://market.near.ai/a/brandnamechecker",
+      "price_usd": "5.00",
+      "price_unit": "per brand check (1-5 names)",
+      "sla": "1 hour",
+      "status": "live",
+      "delivered_jobs": "0",
+      "checks_passed": 4,
+      "checks_total": 4,
+      "checks": [
+        {
+          "id": "listing",
+          "label": "Public listing",
+          "ok": true,
+          "detail": "Brand Name Availability Checker / Research / $5.00 USD",
+          "http_status": 200,
+          "latency_ms": 624,
+          "url": "https://market.near.ai/a/brandnamechecker"
+        },
+        {
+          "id": "health",
+          "label": "Health endpoint",
+          "ok": true,
+          "detail": "ok / brand-name-checker / up 61872s",
+          "http_status": 200,
+          "latency_ms": 383,
+          "url": "https://generator-fell-demonstration-successful.trycloudflare.com/healthz"
+        },
+        {
+          "id": "card",
+          "label": "A2A agent card",
+          "ok": true,
+          "detail": "Brand Name Availability Checker / 1 skill(s) / A2A 0.3.0",
+          "http_status": 200,
+          "latency_ms": 228,
+          "url": "https://generator-fell-demonstration-successful.trycloudflare.com/.well-known/agent-card.json"
+        },
+        {
+          "id": "public_test",
+          "label": "Public test artifact",
+          "ok": true,
+          "detail": "200 / text/html / 6657 bytes",
+          "http_status": 200,
+          "latency_ms": 191,
+          "url": "https://generator-fell-demonstration-successful.trycloudflare.com/r/3e691552-dc1f-4274-983c-23746224f5b2"
+        }
+      ]
+    },
+    {
+      "id": "media-generator",
+      "name": "AI Image, Video & Voiceover Generator",
+      "handle": "media-studio-agent",
+      "market_agent_id": "01fce9d1-259a-450c-b998-3712c744dfc6",
+      "category": "creative",
+      "listing": "https://market.near.ai/a/media-studio-agent",
+      "price_usd": "25.00",
+      "price_unit": "per media job",
+      "sla": "6 hours",
+      "status": "live",
+      "delivered_jobs": "0",
+      "checks_passed": 4,
+      "checks_total": 4,
+      "checks": [
+        {
+          "id": "listing",
+          "label": "Public listing",
+          "ok": true,
+          "detail": "AI Image, Video & Voiceover Generator / Creative / $25.00 USD",
+          "http_status": 200,
+          "latency_ms": 604,
+          "url": "https://market.near.ai/a/media-studio-agent"
+        },
+        {
+          "id": "health",
+          "label": "Health endpoint",
+          "ok": true,
+          "detail": "ok / near-media-generator / up ?s",
+          "http_status": 200,
+          "latency_ms": 474,
+          "url": "https://million-tim-involvement-calvin.trycloudflare.com/healthz"
+        },
+        {
+          "id": "card",
+          "label": "A2A agent card",
+          "ok": true,
+          "detail": "AI Image, Video & Voiceover Generator / 3 skill(s) / A2A 0.3.0",
+          "http_status": 200,
+          "latency_ms": 188,
+          "url": "https://million-tim-involvement-calvin.trycloudflare.com/.well-known/agent-card.json"
+        },
+        {
+          "id": "public_test",
+          "label": "Public test artifact",
+          "ok": true,
+          "detail": "200 / text/markdown / 5309 bytes",
+          "http_status": 200,
+          "latency_ms": 205,
+          "url": "https://million-tim-involvement-calvin.trycloudflare.com/v1/jobs/4183066f-9c42-445f-84c3-b7e39c8dc4fd/report"
+        }
+      ]
+    },
+    {
+      "id": "video-clipper",
+      "name": "Video Clipping Agent",
+      "handle": "clipper-agent",
+      "market_agent_id": "e8b124e2-f24c-43a4-884c-33ddef7e6a33",
+      "category": "creative",
+      "listing": "https://market.near.ai/a/clipper-agent",
+      "price_usd": "25.00",
+      "price_unit": "per clipping job",
+      "sla": "6 hours",
+      "status": "live",
+      "delivered_jobs": "0",
+      "checks_passed": 4,
+      "checks_total": 4,
+      "checks": [
+        {
+          "id": "listing",
+          "label": "Public listing",
+          "ok": true,
+          "detail": "Video Clipping Agent / Creative / $25.00 USD",
+          "http_status": 200,
+          "latency_ms": 615,
+          "url": "https://market.near.ai/a/clipper-agent"
+        },
+        {
+          "id": "health",
+          "label": "Health endpoint",
+          "ok": true,
+          "detail": "ok / video-clipping-agent / up 64048s",
+          "http_status": 200,
+          "latency_ms": 395,
+          "url": "https://defines-anthony-ensures-lounge.trycloudflare.com/healthz"
+        },
+        {
+          "id": "card",
+          "label": "A2A agent card",
+          "ok": true,
+          "detail": "Video Clipping Agent / 1 skill(s) / A2A 0.3.0",
+          "http_status": 200,
+          "latency_ms": 210,
+          "url": "https://defines-anthony-ensures-lounge.trycloudflare.com/.well-known/agent-card.json"
+        },
+        {
+          "id": "public_test",
+          "label": "Public test artifact",
+          "ok": true,
+          "detail": "200 / text/markdown / 3911 bytes",
+          "http_status": 200,
+          "latency_ms": 200,
+          "url": "https://defines-anthony-ensures-lounge.trycloudflare.com/v1/jobs/e720fdfa-c584-4929-87a1-f624ce97a0e7/report"
+        }
+      ]
+    }
+  ]
+}

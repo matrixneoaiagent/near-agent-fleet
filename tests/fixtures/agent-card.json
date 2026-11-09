@@ -1,0 +1,16 @@
+{
+  "protocolVersion": "0.3.0",
+  "name": "Brand Name Availability Checker",
+  "description": "Checks candidate names across registry domains, public social handles, app stores and trademark databases.",
+  "url": "https://example.invalid/",
+  "version": "1.0.0",
+  "capabilities": {"streaming": false, "pushNotifications": false},
+  "skills": [
+    {
+      "id": "brand-name-check",
+      "name": "Brand name availability check",
+      "description": "Domains, handles, app stores and trademarks.",
+      "tags": ["brand", "naming"]
+    }
+  ]
+}

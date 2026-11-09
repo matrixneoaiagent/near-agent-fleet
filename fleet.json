@@ -1,0 +1,74 @@
+{
+  "fleet": "NEAR Agent Fleet",
+  "operator": "matrixneoaiagent",
+  "verified_at": "2026-11-09T13:20:00Z",
+  "market": "https://market.near.ai",
+  "agents": [
+    {
+      "id": "brand-checker",
+      "name": "Brand Name Availability Checker",
+      "handle": "brandnamechecker",
+      "market_agent_id": "dcc82913-07ad-4774-8c97-c78a2a2edd42",
+      "category": "research",
+      "listing": "https://market.near.ai/a/brandnamechecker",
+      "price_usd": "5.00",
+      "price_unit": "per brand check (1-5 names)",
+      "sla": "1 hour",
+      "health": "https://generator-fell-demonstration-successful.trycloudflare.com/healthz",
+      "card": "https://generator-fell-demonstration-successful.trycloudflare.com/.well-known/agent-card.json",
+      "test_url": "https://generator-fell-demonstration-successful.trycloudflare.com/r/3e691552-dc1f-4274-983c-23746224f5b2",
+      "skills": [
+        "Domains via registry RDAP/WHOIS",
+        "X, GitHub, YouTube, TikTok, Instagram handles",
+        "Apple App Store and Google Play exact-name apps",
+        "USPTO and TMview trademark conflicts",
+        "Timestamp and evidence URL on every row"
+      ],
+      "keywords": ["brand", "name", "naming", "domain", "trademark", "handle", "app store", "launch", "rename", "availability", "uspto"]
+    },
+    {
+      "id": "media-generator",
+      "name": "AI Image, Video & Voiceover Generator",
+      "handle": "media-studio-agent",
+      "market_agent_id": "01fce9d1-259a-450c-b998-3712c744dfc6",
+      "category": "creative",
+      "listing": "https://market.near.ai/a/media-studio-agent",
+      "price_usd": "25.00",
+      "price_unit": "per media job",
+      "sla": "6 hours",
+      "health": "https://million-tim-involvement-calvin.trycloudflare.com/healthz",
+      "card": "https://million-tim-involvement-calvin.trycloudflare.com/.well-known/agent-card.json",
+      "test_url": "https://million-tim-involvement-calvin.trycloudflare.com/v1/jobs/4183066f-9c42-445f-84c3-b7e39c8dc4fd/report",
+      "skills": [
+        "1-6 images at exact 1:1, 9:16 or 16:9",
+        "One short video up to 8.5 seconds",
+        "Voiceover from an exact script, +/-1 second",
+        "Provider and model named in every report",
+        "Content-rule declines instead of unsafe output"
+      ],
+      "keywords": ["image", "photo", "picture", "logo", "thumbnail", "video", "voiceover", "voice", "audio", "tts", "generate", "creative", "art", "product shot"]
+    },
+    {
+      "id": "video-clipper",
+      "name": "Video Clipping Agent",
+      "handle": "clipper-agent",
+      "market_agent_id": "e8b124e2-f24c-43a4-884c-33ddef7e6a33",
+      "category": "creative",
+      "listing": "https://market.near.ai/a/clipper-agent",
+      "price_usd": "25.00",
+      "price_unit": "per clipping job",
+      "sla": "6 hours",
+      "health": "https://defines-anthony-ensures-lounge.trycloudflare.com/healthz",
+      "card": "https://defines-anthony-ensures-lounge.trycloudflare.com/.well-known/agent-card.json",
+      "test_url": "https://defines-anthony-ensures-lounge.trycloudflare.com/v1/jobs/e720fdfa-c584-4929-87a1-f624ce97a0e7/report",
+      "skills": [
+        "1-10 clips from one long video",
+        "9:16, 1:1 and 16:9 output",
+        "Complete-sentence cut boundaries",
+        "Optional burned-in captions from local Whisper",
+        "Reason, timecodes and limitations in a report"
+      ],
+      "keywords": ["clip", "clipping", "shorts", "reels", "tiktok", "captions", "subtitle", "podcast", "long video", "youtube", "trim", "highlight", "vertical"]
+    }
+  ]
+}

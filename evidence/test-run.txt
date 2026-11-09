@@ -1,0 +1,22 @@
+test_ids_unique_and_prices_are_decimal_strings (test_fleet.CatalogTests.test_ids_unique_and_prices_are_decimal_strings) ... ok
+test_three_agents_all_https (test_fleet.CatalogTests.test_three_agents_all_https) ... ok
+test_all_checks_live (test_fleet.CheckAgentTests.test_all_checks_live) ... ok
+test_health_failure_is_degraded_not_down (test_fleet.CheckAgentTests.test_health_failure_is_degraded_not_down) ... ok
+test_listing_failure_is_down (test_fleet.CheckAgentTests.test_listing_failure_is_down) ... ok
+test_extracts_delivered_jobs (test_fleet.ListingParserTests.test_extracts_delivered_jobs) ... ok
+test_extracts_service_jsonld (test_fleet.ListingParserTests.test_extracts_service_jsonld) ... ok
+test_ignores_non_json_script_blocks (test_fleet.ListingParserTests.test_ignores_non_json_script_blocks) ... ok
+test_markdown_contains_every_agent (test_fleet.OutputTests.test_markdown_contains_every_agent) ... ok
+test_brand_brief_routes_to_checker (test_fleet.RouterTests.test_brand_brief_routes_to_checker) ... ok
+test_empty_brief_needs_clarification (test_fleet.RouterTests.test_empty_brief_needs_clarification) ... ok
+test_media_brief_routes_to_generator (test_fleet.RouterTests.test_media_brief_routes_to_generator) ... ok
+test_quote_contains_hire_link_and_sla (test_fleet.RouterTests.test_quote_contains_hire_link_and_sla) ... ok
+test_unknown_brief_needs_clarification (test_fleet.RouterTests.test_unknown_brief_needs_clarification) ... ok
+test_video_brief_routes_to_clipper (test_fleet.RouterTests.test_video_brief_routes_to_clipper) ... ok
+test_gitignore_blocks_runtime_state (test_fleet.SecretHygieneTests.test_gitignore_blocks_runtime_state) ... ok
+test_no_credential_shapes_in_repository (test_fleet.SecretHygieneTests.test_no_credential_shapes_in_repository) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.014s
+
+OK
