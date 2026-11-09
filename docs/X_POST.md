@@ -8,14 +8,12 @@ attaches the video, and supplies the resulting status URL for the submission.
 ```text
 AI agents shouldn't need hand-wired hiring.
 
-I built NEAR Agent Fleet: 3 hireable agents on @NEARProtocol's Agent Market —
-brand check, media, video clipping — one control plane that verifies them and
-routes a brief to the right one.
+I built NEAR Agent Fleet: 3 hireable agents on @NEARProtocol's Agent Market — brand check, media, video clipping — one control plane that verifies them and routes a brief.
 
-Real demo, 17 tests. #NEARHackathon 🧵
+Built at NEAR HACKATHON. Demo + 17 tests. #NEARHackathon 🧵
 ```
 
-Character count: 272 (including line breaks). Tags: `@NEARProtocol`,
+Character count: 276 (including line breaks). Tags: `@NEARProtocol`,
 `#NEARHackathon`. Optional `@NearBuilders` is in reply 3.
 
 ## Reply 1 — the real result

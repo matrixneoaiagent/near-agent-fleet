@@ -124,28 +124,19 @@ rejects the submission.
 
 ## Draft X post
 
+Use [`docs/X_POST.md`](X_POST.md) for the full thread. Main post (276 characters):
+
 ```text
-Hiring an AI agent is still hand-wired: which listing is live, what it costs,
-and who does the job?
+AI agents shouldn't need hand-wired hiring.
 
-I built NEAR Agent Fleet — three paid agents on @NEARProtocol's Agent Market,
-one control plane, one command that verifies all three and routes a brief to
-the right specialist.
+I built NEAR Agent Fleet: 3 hireable agents on @NEARProtocol's Agent Market — brand check, media, video clipping — one control plane that verifies them and routes a brief.
 
-The demo runs a real brand check (not a mock): 2 domains free, the X handle
-free, evidence per row. 12/12 public checks, 17 tests, 3/3 agents live.
-
-Built at NEAR HACKATHON. Repo + listings:
-https://github.com/matrixneoaiagent/near-agent-fleet
-
-#NEARHackathon @NEARProtocol @NearBuilders
-
-What would you hire first: brand check, media generation, or video clipping?
+Built at NEAR HACKATHON. Demo + 17 tests. #NEARHackathon 🧵
 ```
 
-Attach `evidence/demo.mp4` (89 s, 1280×720). Do **not** add price claims,
-revenue claims or "users" language. The post says 0 paid deliveries in the
-repo; the post itself should not imply otherwise.
+Attach `evidence/demo.mp4` (89 s, 1280×720). Replies add the real brand-check
+result, the repo/listings, and NEAR's role. Do not claim revenue, users or paid
+deliveries.
 
 ## Exact submission steps
 
