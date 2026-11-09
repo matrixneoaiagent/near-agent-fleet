@@ -258,6 +258,7 @@ def check_agent(agent: dict[str, Any], timeout: float = 25.0) -> dict[str, Any]:
         "price_usd": agent["price_usd"],
         "price_unit": agent.get("price_unit", ""),
         "sla": agent["sla"],
+        "skills": agent.get("skills", []),
         "status": status,
         "delivered_jobs": delivered,
         "checks_passed": passed,
@@ -646,7 +647,7 @@ async function runStatus() {
   }
   renderFleet(data.agents);
   data.agents.forEach(a => {
-    logLine(`  ${a.status.toUpperCase().padEnd(8)} ${a.name} — ${a.checks_passed}/${a.checks_total} checks, ${a.checks.map(c => c.latency_ms).reduce((x,y)=>x+y,0)} ms`);
+    logLine(`  ${a.status.toUpperCase().padEnd(8)} ${a.name} — ${a.checks_passed}/${a.checks_total} checks, ${(a.checks || []).map(c => c.latency_ms).reduce((x,y)=>x+y,0)} ms`);
   });
   logLine(`  ${data.summary.live}/${data.summary.agents} live in ${data.duration_ms} ms`, 'cmd');
   return data;
